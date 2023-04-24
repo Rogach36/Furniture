@@ -1024,6 +1024,10 @@ margin: 0 0 98px 0;
 	display: none;
 }
 
+.image-feature__button:hover {
+	background: #d4671f;
+} 
+
 .image-feature__item--big {
 	flex: 0 1 45.169%;
 	position: relative;
@@ -1235,6 +1239,10 @@ margin: 0 0 98px 0;
 	bottom: 0;
 	padding: 12px 24px;
 	display: none;
+}
+
+.products__item-button:hover {
+	background: #d16720;
 }
 .products__item-line {
 	display: flex;
