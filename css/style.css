@@ -269,6 +269,7 @@ body {
 	margin: 0 0 40px 0;
 	padding: 0 40px 0 0;
 }
+
 .main-block__button {
 	display: inline-flex;
 	min-height: 60px;
@@ -284,6 +285,11 @@ body {
 	text-transform: capitalize;
 	position: relative;
 }
+
+.main-block__button:hover {
+	background-color: #ce6520;
+}
+
 
 .main-block__button::before {
 	content: "";
@@ -917,6 +923,7 @@ margin: 0 0 98px 0;
 	background-color: transparent;	
 	top: 0;
 	right: -186px;
+	cursor: pointer;
 }
 
 .title-block__buttons::before {
@@ -924,7 +931,6 @@ margin: 0 0 98px 0;
 	right: -256px;	
 	background-color: #FF7A24;	
 }
-
 
 .title-block__button {
 	padding: 12px 24px;
@@ -1162,6 +1168,7 @@ margin: 0 0 98px 0;
 }
 .title-block__text {
 }
+
 .title-block__key {
 	display: inline-flex;
 	align-items: center;
@@ -1178,6 +1185,11 @@ margin: 0 0 98px 0;
 	color: #FFFFFF;
 	position: relative;
 }
+
+.title-block__key:hover {
+	background-color: #df6d21;
+}
+
 .title-block__key::after {
 	content: "";
 	position: absolute;
@@ -1563,6 +1575,9 @@ margin: 0 0 98px 0;
 	color: #FFFFFF;
 	min-height: 48px;
 	background-color: #FF7500;
+}
+.newsletter__button:hover {
+	background-color: #ec7b17;
 }
 
 /*----------------------Footer-----------------------------*/
